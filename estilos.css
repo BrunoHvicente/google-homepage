@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.87);
+    box-sizing: border-box;
+}
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbaritem {
+    margin: 0 10px;
+}
+
+#foto {
+    margin: 7px;
+    padding-right: 5px;
+}
+
+#fotenha {
+    display: block;
+    background-size: 34px 33px;
+    border: 0;
+    border-radius: 50%;
+}
+
+#fotenha:hover {
+    opacity: 70%;
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+#quadrados {
+    position: relative;
+    border-radius: 50%;
+}
+
+
+
+#imgquadrado {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    position: relative;
+}
+
+#imgquadrado:hover {
+    opacity: 70%;
+}
+
+#logo {
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+    flex-direction: column;
+}
+
+#logo img {
+    height: 100px;
+    width: 269px;
+}
+
+#bottom {
+    height: calc(100vh - 196px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#form {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;    
+}
+
+
+
+#pesquisagoogle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+#pesquisagoogle input {
+    flex-grow: 1;
+    border: none;
+    height: 38px;
+    outline: none;
+    padding: 0 10px;
+}
+
+#pesquisagoogle:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+.icones {
+    max-width: 15px;
+    max-height: 18px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+#butoes {
+    padding-top: 15px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 0 20px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+#rodape {
+}
+
+#rodape01 {
+    padding-left: 21px;
+}
+
+#rodape02 {
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+}
+
+#listarodape {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+#listarodape02 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    padding: 6px;
+    margin: 15px;
+}
+
